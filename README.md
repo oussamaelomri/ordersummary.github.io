@@ -25,7 +25,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Github](https://github.com/oussamaelomri/ordersummary.github.io)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://oussamaelomri.github.io/ordersummary.github.io/)
 
 ## My process
 
@@ -37,7 +37,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Continued development
 
-In the option plan, in the in god willing, I want to replace the option plan with a dropdown button which it give a lot of options with the same style of .option
+In the option plan, in the in god willing, I want to replace the option plan with a dropdown button which it gives a lot of options with the same style of .option
 
 ## Author
 
