@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/* Start Variables */
+:root {
+    --Primary-Pale-blue: hsl(225, 100%, 94%);
+    --Primary-Bright-blue: hsl(245, 75%, 52%);
+    --Neutral-Very-pale-blue: hsl(225, 100%, 98%);
+    --Neutral-Desaturated-blue: hsl(224, 23%, 55%);
+    --Neutral-Dark-blue: hsl(223, 47%, 23%);
+}
+/* End Variables */
+
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: var(--Primary-Pale-blue);
+}
+/* End Global Rules */
+
+/* Start Container */
+
+.container {
+    width: 370px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    .container {
+        width: 350px;
+    }
+}
+.container img.hero {
+    max-width: 100%;
+}
+.container > .info {
+    padding: 40px 38px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.container .info h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.container .info p:first-of-type {
+    color: var(--Neutral-Desaturated-blue);
+}
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: var(--Neutral-Very-pale-blue);
+    padding: 16px 10px;
+    border-radius: 15px;
+}
+.option img {
+    margin-right: 20px;
+}
+.option span:first-child {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+.option span:last-child {
+    color: var(--Neutral-Desaturated-blue);
+    font-size: 0.9em;
+}
+.option .button {
+    margin-left: auto;
+    padding-right: 10px;
+    text-decoration: underline;
+    color: var(--Primary-Bright-blue);
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.option .button:hover {
+    color: var(--Neutral-Desaturated-blue);
+    text-decoration: none;
+}
+.payment-button {
+    padding: 15px;
+    background-color: var(--Primary-Bright-blue);
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.payment-button:hover {
+    background-color: var(--Neutral-Desaturated-blue);
+}
+.cancel {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: var(--Neutral-Desaturated-blue);
+    cursor: pointer;
+    transition: .3s;
+}
+.cancel:hover {
+    color: var(--Primary-Bright-blue);
+}
+/* End Container */
