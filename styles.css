@@ -21,7 +21,7 @@ body {
 }
 body {
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background-image: url(images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: cover;
     background-position: top;
     background-color: var(--Primary-Pale-blue);
@@ -39,29 +39,29 @@ body {
 /* Start Container */
 
 .container {
-    width: 370px;
+    width: 23.125rem;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     overflow: hidden;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
     .container {
-        width: 350px;
+        width: 21.875rem;
     }
 }
 .container img.hero {
     max-width: 100%;
 }
 .container > .info {
-    padding: 40px 38px;
+    padding: 2.5rem 2.375rem;
     margin-left: 0;
     margin-right: 0;
 }
 .container .info h1 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 .container .info p:first-of-type {
@@ -70,27 +70,27 @@ body {
 .option {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     text-align: left;
     background-color: var(--Neutral-Very-pale-blue);
-    padding: 16px 10px;
-    border-radius: 15px;
+    padding: 1rem 0.625rem;
+    border-radius: 0.9375rem;
 }
 .option img {
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 .option span:first-child {
     display: block;
     font-weight: bolder;
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
 }
 .option span:last-child {
     color: var(--Neutral-Desaturated-blue);
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 .option .button {
     margin-left: auto;
-    padding-right: 10px;
+    padding-right: 0.625rem;
     text-decoration: underline;
     color: var(--Primary-Bright-blue);
     font-weight: bold;
@@ -102,15 +102,15 @@ body {
     text-decoration: none;
 }
 .payment-button {
-    padding: 15px;
+    padding: 0.9375rem;
     background-color: var(--Primary-Bright-blue);
     color: white;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    border-radius: 0.625rem;
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 5px 15px 30px 6px var(--Primary-Pale-blue);
+    box-shadow: 0.3125rem 0.9375rem 1.875rem 0.375rem var(--Primary-Pale-blue);
     transition: .3s;
 }
 .payment-button:hover {
