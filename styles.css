@@ -110,7 +110,7 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 5px 15px 30px 5px var(--Primary-Pale-blue);
+    box-shadow: 5px 15px 30px 6px var(--Primary-Pale-blue);
     transition: .3s;
 }
 .payment-button:hover {
